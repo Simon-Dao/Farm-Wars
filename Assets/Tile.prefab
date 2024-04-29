@@ -96,6 +96,7 @@ GameObject:
   m_Component:
   - component: {fileID: 973027865258159970}
   - component: {fileID: 2177368690918727201}
+  - component: {fileID: 1645341767872071394}
   m_Layer: 0
   m_Name: Gold
   m_TagString: Untagged
@@ -172,6 +173,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1645341767872071394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6466570089009964552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01496f1273436b42990b3a16805b569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _self: {fileID: 6466570089009964552}
+  _dollarsPerSecond: 10
 --- !u!1 &7494563759884256092
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,3 +340,4 @@ MonoBehaviour:
   _renderer: {fileID: 2271800573764259354}
   _highlight: {fileID: 1648996799934598938}
   _generator: {fileID: 6466570089009964552}
+  cost: 100
