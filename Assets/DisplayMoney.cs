@@ -8,6 +8,6 @@ public class DisplayMoney : MonoBehaviour
     [SerializeField] private Text _text;
     void Update()
     {
-        _text.text = Bank.money.ToString();
+        _text.text = "$" + Bank.money.ToString("0.00");
     }
 }
